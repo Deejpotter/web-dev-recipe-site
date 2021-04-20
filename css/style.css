@@ -1,0 +1,25 @@
+/* --------------- Variables ------------------- */
+
+:root {
+    --main: #26BF66;
+    --light-accent: #59B7CC;
+    --dark-accent: #7A616C;
+    --light: #F4EFF2;
+    --dark: #181821;
+
+    --heading-font: 'Knewave', cursive;
+    --body-font: 'Montserrat', sans-serif;
+}
+
+
+/* --------------- Main ------------------- */
+
+body {
+    font-family: var(--body-font);
+    background-color: var(--main);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    font-weight: 400;
+}

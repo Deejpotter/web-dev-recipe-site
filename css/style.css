@@ -1,13 +1,17 @@
+/* --------------- Imports ------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Frijole&family=Montserrat:wght@100;200;300;500;600;700;800;900&display=swap');
+
+
 /* --------------- Variables ------------------- */
 
 :root {
-    --main: #26BF66;
-    --light-accent: #59B7CC;
-    --dark-accent: #7A616C;
-    --light: #F4EFF2;
-    --dark: #181821;
+    --main: #EC9A29;
+    --accent: #DD1C1A;
+    --light: #F8FFEB;
+    --dark: #0B090B;
 
-    --heading-font: 'Knewave', cursive;
+    --heading-font: 'Frijole', cursive;
     --body-font: 'Montserrat', sans-serif;
 }
 

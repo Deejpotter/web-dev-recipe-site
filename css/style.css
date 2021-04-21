@@ -20,10 +20,40 @@
 
 body {
     font-family: var(--body-font);
-    background-color: var(--main);
+    background-color: var(--light);
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     font-weight: 400;
+}
+
+
+/* --------------- Navbar ------------------- */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    display: block;
+    min-width: 140px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-family: var(--heading-font);
+    color: var(--dark);
+    background: var(--main);
+    text-decoration: none;
+}
+
+li:hover a {
+    background: var(--accent);
 }

@@ -41,17 +41,27 @@ a {
 /* --------------- Main classes ------------------- */
 
 .container {
-    width: var(--breakpoint-1);
+    max-width: var(--breakpoint-1);
     margin: auto;
 }
 
 .container-center {
-    width: var(--breakpoint-1);
+    max-width: var(--breakpoint-1);
     margin: var(--header-height) auto;
+    text-align: center; 
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+@media (min-width: 700px)  {
+    .container-center {
+    max-width: var(--breakpoint-1);
+    margin: var(--header-height) auto;
+    position: absolute;
     text-align: center;
     top: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+}
 }
 
 
@@ -79,7 +89,6 @@ nav ul {
 }
 
 nav li {
-    display: inline-block;
     float: left;
     margin-right: 1px;
 }

@@ -6,37 +6,42 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Simple Recipes</title>
-        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <link rel="stylesheet" href="./css/style.css" type="text/css">
     </head>
 
     <body>
 
         <header>
-            <div class="brand">
-                <a href="index.html"></a>
-            </div>
-            <nav>
-                <label for="show-menu">Show Menu</label>
-                <input type="checkbox" id="show-menu" role="button">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li>
-                        <a href="recipes/recipe-index.html">Recipes</a>
-                        <ul class="hidden">
-                            <li><a href="#">First</a></li>
-                            <li><a href="#">Second</a></li>
-                            <li><a href="#">Third</a></li>
+            <div class="navbar">
+                <div class="container">
+                    <div class="brand">
+                        <a href="./index.html">Recipe Site</a>
+                    </div>
+                    <nav>
+                        <label for="show-menu">Show Menu</label>
+                        <input type="checkbox" id="show-menu" role="button">
+                        <ul>
+                            <li>
+                                <a href="./recipes/recipe-index.html">Recipes</a>
+                                <ul class="hidden">
+                                    <li><a href="#">First</a></li>
+                                    <li><a href="#">Second</a></li>
+                                    <li><a href="#">Third</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="./contact.html">Contact</a></li>
                         </ul>
-                    </li>
-                    <li><a href="contact.html"></a></li>
-                </ul>
-            </nav>
+                    </nav>
+                </div>
+            </div>
         </header>
 
         <main>
-            <h1>The Heading</h1>
-
-            <p>This is the first paragraph.</p>
+            <div class="container-center">
+                <h1>The Heading</h1>
+                
+                <p>This is the subtitle.</p>
+            </div>
         </main>
 
         <footer>

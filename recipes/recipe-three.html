@@ -17,18 +17,19 @@
         <div class="navbar">
             <div class="container">
                 <div class="brand">
-                    <a href="../index.xhtml">Recipe Site</a>
+                    <a href="../index.xhtml">Simple Recipes</a>
                 </div>
                 <nav>
                     <label for="show-menu">Show Menu</label>
                     <input type="checkbox" id="show-menu" role="button" />
                     <ul id="menu">
+                        <li><a href="../index.xhtml">Home</a></li>
                         <li>
                             <a href="../recipes.html">Recipes</a>
                             <ul class="hidden">
-                                <li><a href="#">First</a></li>
-                                <li><a href="#">Second</a></li>
-                                <li><a href="#">Third</a></li>
+                                <li><a href="./recipe-one.html">First</a></li>
+                                <li><a href="./recipe-two.html">Second</a></li>
+                                <li><a href="./recipe-three.html">Third</a></li>
                             </ul>
                         </li>
                         <li><a href="../about.html">About</a></li>
@@ -43,60 +44,53 @@
 
         <!-- Hero section -->
         <section class="hero shadow">
+            <img src="../images/blank-tablecloth.jpg" alt="An empty table with a tablecloth." />
             <div class="container-center">
-                <h1>The Heading</h1>
-                <p>This is the subtitle.</p>
+                <h1>Pasta with Sauce</h1>
+                <h2>It's like pasta but it has sauce on it.</h2>
             </div>
         </section>
 
-        <div class="container-sidebar">
+        <div class="container-sidebar shadow border-radius">
 
             <!-- Recipe section -->
             <article class="recipe">
                 <div class="container-col">
-                    <h2>Recipe title</h2>
+                    <h2>Pasta with Sauce</h2>
+                    <h3>Ingredients</h3>
                     <ul class="ingredients">
-                        <h3>Ingredients</h3>
-                        <li>Ingredient one</li>
-                        <li>Ingredient one</li>
-                        <li>Ingredient one</li>
+                        <li>500g of pasta</li>
+                        <li>10L of water</li>
+                        <li>A handful of salt</li>
+                        <li>1 jar of pasta sauce</li>
                     </ul>
+                    <h3>Method</h3>
                     <ol class="method">
-                        <h3>Method</h3>
-                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique numquam porro veniam
-                            earum
-                            unde quis explicabo debitis, in aliquam fuga iste vero, laborum cumque! Consequuntur
-                            similique
-                            quod accusantium magnam totam.</li>
-                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique numquam porro veniam
-                            earum
-                            unde quis explicabo debitis, in aliquam fuga iste vero, laborum cumque! Consequuntur
-                            similique
-                            quod accusantium magnam totam.</li>
-                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique numquam porro veniam
-                            earum
-                            unde quis explicabo debitis, in aliquam fuga iste vero, laborum cumque! Consequuntur
-                            similique
-                            quod accusantium magnam totam.</li>
+                        <li>Put a handful of salt into the water and bring the water to the boil in a large pot.</li>
+                        <li>Once the water is boiling, stir it then put the whole pack of pasta into the water. </li>
+                        <li>Cook the pasta for about 10 minutes or however long it says on the pack.</li>
+                        <li>Once it is cooked strain the pasta and put the pot back on the heat.</li>
+                        <li>Empty the jar of sauce into the pot and cook on a medium heat until it is hot.</li>
+                        <li>Mix the pasta into the sauce then eat it, probably from a bowl but that's not completely
+                            necessary.</li>
                     </ol>
                 </div>
             </article>
 
             <!-- Sidebar -->
             <aside class="sidebar">
-                <div class="card">
-                    <h3>Recipe title</h3>
-                    <a href="./recipes/recipe-one.html">See recipe one</a>
+                <div class="card shadow">
+                    <img src="../images/blank-knife.jpg" alt="An empty table with a knife." />
+                    <h3>Recipe One</h3>
+                    <a href="./recipe-one.html">See recipe one</a>
                 </div>
-                <div class="card">
-                    <h3>Recipe title</h3>
-                    <a href="./recipes/recipe-two.html">See recipe two</a>
+                <div class="card shadow">
+                    <img src="../images/blank-spoon.jpg" alt="An empty table with a spoon." />
+                    <h3>Recipe Two</h3>
+                    <a href="./recipe-two.html">See recipe two</a>
                 </div>
-                <div class="card">
-                    <h3>Recipe title</h3>
-                    <a href="./recipes/recipe-three.html">See recipe three</a>
-                </div>
-            </aside>
+        </div>
+        </aside>
 
         </div>
 
